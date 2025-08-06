@@ -18,9 +18,9 @@ A personal project to build an AI-powered tool that detects, analyzes, and class
 
 > Focused on **ball motion detection** — no AI model required initially.
 
-- [x] Video input (match or training clip)
-- [x] Detect small, fast-moving ball using motion + colour filters
-- [x] Visualise and highlight potential serve moments
+- [ ] Video input (match or training clip)
+- [ ] Detect small, fast-moving ball using motion + colour filters
+- [ ] Visualise and highlight potential serve moments
 - [ ] Export data or highlight timestamps for serve events
 - [ ] (Future) Classify types of serves with trained ML model
 
@@ -47,7 +47,7 @@ serve-analyser/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/serve-analyser.git
+git clone https://github.com/fearless-lila/table-tennis-detection.git
 cd serve-analyser
 ```
 
@@ -82,22 +82,6 @@ Make sure you have a video file in `videos/` and update the path in the script i
 - Add UI for users to upload videos and get feedback
 - Use pose estimation (like MediaPipe or OpenPose)
 - Build a web-based front-end for coaches and players
-
----
-
-## 🤝 Contributing or Discussing
-
-This is a passion project. If you have experience with:
-- Computer vision
-- Table tennis coaching
-- Model deployment
-Feel free to open an issue, suggest an idea, or reach out.
-
----
-
-## 📬 Contact
-
-If you're interested in collaborating or providing feedback, please reach out via GitHub or email.
 
 ---
 
