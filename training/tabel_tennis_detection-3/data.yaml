@@ -1,0 +1,16 @@
+names:
+- ball
+- player 1
+- player 2
+- racket 1
+- racket 2
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: tabel_tennis_detection-5yqal
+  url: https://universe.roboflow.com/lila-uczgc/tabel_tennis_detection-5yqal/dataset/3
+  version: 3
+  workspace: lila-uczgc
+test: ../test/images
+train: ../train/images
+val: ../valid/images

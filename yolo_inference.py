@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt") 
+model = YOLO("/Users/lilahu/Desktop/Code/table-tennis-detection/models/best.pt") 
 
-results = model.predict('Videos/fan_vs_lee.mp4',save=True)
+results = model.predict('/Users/lilahu/Desktop/Code/table-tennis-detection/runs/detect/predict/fan_vs_harimoto.mp4',save=True)
 
 print(results[0])
 print('==========================================')
